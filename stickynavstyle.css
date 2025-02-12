@@ -2,12 +2,14 @@
 #navbar {
   /*overflow: hidden;*/
   background-color: #FFF836;
+  text-align: center;
+  list-style-type: none;
+  
 }
 
 /* Navbar links */
 #navbar a {
-  float: left;
-  display: block;
+  float: none;
   color: #000000;
   text-align: center;
   padding: 8px;
