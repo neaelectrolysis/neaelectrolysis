@@ -14,11 +14,15 @@
   text-align: center;
   padding: 8px;
   text-decoration: none;
-font-family: 'Crimson Text', serif;
-font-size: 175%;
-color: #000000;
-
+  
+/* DO I NEED TO ADD FONT SIZE? */
+  
+  font-family: "Hanuman", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #000000;
 }
+
 
 /* Page content */
 .content {
