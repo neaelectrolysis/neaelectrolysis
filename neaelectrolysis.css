@@ -20,7 +20,7 @@
 	float: left;
 }
 #logo {
-	float: left;
+	float: none;
 	width: 100%;
 	text-align: center; 
 }
@@ -36,19 +36,39 @@ margin-bottom: 5px;
 margin-top: 5px;
 }
 
-p { font-family: 'Crimson Text', serif;
-font-size: 130%;
-color: #000000;
-text-shadow: 0px 0px 1px #000000;
+p { 
+font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 120%;
+ /* text-align: center; */
 }
 
 h1 {
-font-family: 'Homemade Apple', cursive;
-font-size: 150%;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 400%;
+  text-align: center;
 }
 
 h2 {	
 }
+
+
+h3 {
+	font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 200%;
+  text-align: center;
+  font-color: #000000;
+}
+
 
 footer {
 }
@@ -56,12 +76,39 @@ footer {
 pre {
 }
 
+.homepageDiv {
+	
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
 a { text-decoration: none; color:#000000; }
 a:visited { text-decoration: none; color: #000000; }
-a:hover { text-decoration: none; color: #1EA896; text-shadow: 0px 0px 1px #000000;}
-a:focus { text-decoration: none; color: #1EA896; }
+a:hover { text-decoration: none; color: #000000; text-shadow: 0px 0px 3px #ffffff;}
+a:focus { text-decoration: none; color: #000000; }
 a:hover, a:active { text-decoration: none; color: #000000; }
 
 li a {display: block;
 list-style-type: none;
 text-decoration: none; }
+
+
+/* Blinking Text */
+.blink_me {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
