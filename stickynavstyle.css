@@ -1,7 +1,7 @@
 /* Style the navbar */
 #navbar {
  /*  overflow: hidden;  */
- /* background-color: #fffefb;*/   /*this was that yellow shit*/
+ background-color: #000000;   /*this was that yellow shit*/
   text-align: center;
   list-style-type: none;
   height: 40px;
@@ -23,7 +23,7 @@
   /* font-optical-sizing: auto; */
   font-weight: 400;
   font-style: normal;
-  color: #000000;
+  color: #fffefb;
   font-size: 125%;
   text-align: center; 
 }
