@@ -13,12 +13,26 @@
 	float: left;
 	width:50%;
 }
+
+#column-services-left {
+	float: left;
+	width:20%;
+}
+
+#column-services-right {
+	float: left;
+	width:80%;
+}
 .float-right {
 	float: right;
 }
 .float-left {
 	float: left;
 }
+.float-center {
+	align-items: center;
+}
+
 #logo {
 	float: none;
 	width: 100%;
@@ -57,23 +71,23 @@ h1 {
   text-shadow: 0px 0px 1px #000000;
 }
 
-h2 {	
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 300%;
-  text-align: center;
-  text-shadow: 0px 0px 1px #000000;
-}
-
-
-h3 {
+h2 {	                                  /* use this for medium header that floats left */
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
   font-size: 250%;
+  text-align: left;
+  text-shadow: 0px 0px 1px #000000;
+}
+
+
+h3 {                                
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 200%;
   text-align: center;
   text-shadow: 0px 0px 1px #000000;
 }
@@ -87,9 +101,29 @@ font-family: "Montserrat", sans-serif;
   font-size: 100%;	
 }
 
+h6 {	                                 /* just using this one for centering images */
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 250%;
+  text-align: center;
+  text-shadow: 0px 0px 1px #000000;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
 footer {
-}
+font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 80%;
+ }
 
 pre {
 }
@@ -104,11 +138,12 @@ pre {
 	
 }
 
-a { text-decoration: none; color:#000000; }
-a:visited { text-decoration: none; color: #000000; }
-a:hover { text-decoration: none; color: #000000; text-shadow: 0px 0px 3px #ffffff;}
-a:focus { text-decoration: none; color: #000000; }
-a:hover, a:active { text-decoration: none; color: #000000; }
+a { text-decoration: none; color:#595281; }
+a:visited /* unspecified */
+a:focus { color: #8000000; }
+a:hover { color: #9b8fdf; cursor: pointer;}
+a:active { color: #000000; }
+a:link /* unspecified */
 
 li a {display: block;
 list-style-type: none;
@@ -156,3 +191,43 @@ text-decoration: none; }
   display: none;
   overflow: hidden;
 }
+
+
+/* Styling for Days/Hours Table */
+
+table {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 120%;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+td, th {
+  border: 0px solid #ffffff;
+  text-align: left;
+  padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 0px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px; 
+  cursor: pointer;
+  background-color: green;
+  border-radius: 12px;
+  font-size: 95%;
+}
+
+.button:hover
+{background-color: purple; color: #000000;}

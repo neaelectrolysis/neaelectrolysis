@@ -4,32 +4,18 @@
 
 <!--
 need stock photos (do effect like on photography website)
-figure out how to resize tiktok icon or make both icons the same
 make tiktok acct
-need new fonts (the google thing)
-need "schedule service" at very top of page (i guess on all pages maybe?)
-create web design business website
-figure out how to make website mobile compatible
-need domain names neaelectrolysis.com & arsinoedesigns.com
-add spot for writing reviews or maybe google reviews
-need to fix sizing of social media icons
-i tried to center the images but i think maybe something else is overriding it
-maybe do a black or dark grey banner behind the navigation
-i want text in navigation bar to be aligned with social media icons
+make instagram acct
+buy domain name arsinoedesigns.com
 notice the gap that happens on the edges of the navigation bar on pages i used column feature
-change "book appointment" in navigation to "book session"
-add 1px shadow to soften font (especially on h1/h2)
-edit background (it doesnt match header logo)
-change footer font
-maybe create a "navigation" for the bottom of the website? to make it look more professional?
+align text/icons/button on navigation bar
+create logo & favicon
+update navbar html on all files
+add photos of office to home page
+troubleshoot why i can't get the images to center with h6 on contact page
+finish button on navbar
 
 write down what html files i don't have accessible from home page
-
-figure out how to make links different color & change when hover
-
-correct size & add social media icons (also need different tiktok icon)
-
-create logo & favicon
 
 i think i want the name of each current page to show up on the navigation bar?
 
@@ -102,42 +88,47 @@ https://fonts.google.com/specimen/Architects+Daughter?preview.text=About%20the%2
 
 
 	
-<div id="navbar">
-  <!--<a class="active" href="index.html">Home</a>-->
-	
+<div id="navbar"> 
+<div class="content">
 
-<div class="float-left">
-	<a href="booksession.html">Book Appointment</a>
-</div>
+&nbsp;&nbsp;&nbsp;&nbsp;
 
+<!-- <div class="float-left"> -->
+	<button class="button">
+	<a href="booksession.html">Book Session</a>
+	</button>
+<!-- </div> -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-
-<div class="float-right">
+<!-- <div class="float-right"> -->
 
 	<a href="service.html">Services & Prices</a>
 	<a>|</a>
 	<a href="contact.html">Contact</a> <!-- messaging feature, email, phone, office location, plus PHOTOS of office/clinic-->
-   	<a>|</a>
+	<a>|</a>
 	<a href="faq.html">FAQ</a>
 	<a>|</a>
 	<a href="about.html">About</a>
 	<a>|</a>
 	<a href="reviews.html">Reviews</a> <!-- do i just copy & paste reviews from google/facebook? or set it up so clients can submit reviews directly to the website?-->
-	<a>|</a>
-	<a href="projects.html">Projects</a> <!-- about my research, art/paintings, & my web design company Arsinoe Designs -->
 
-
-
-<!--
-		<a href="https://www.facebook.com/share/18HD7grakJ/?mibextid=LQQJ4d" target="_blank">
-		<img src="fblogo.png" alt="Tiktok Icon" style="width:35px;height:35px;"></a>
+	<a href="https://www.facebook.com/share/18HD7grakJ/?mibextid=LQQJ4d" target="_blank">
+		<img src="fbicon.png" alt="Tiktok Icon" style="width:35px;height:35px;"></a>
 	<a href="LINK TO TIKTOK PAGE" target="_blank">
-		<img src="tiktoklogo.png" alt="Tiktok Icon" style="width:35px;height:35px;"></a>
+		<img src="tiktokicon.png" alt="Tiktok Icon" style="width:35px;height:35px;"></a>
 	<a href="LINK TO INSTAGRAM PAGE" target="_blank">
-		<img src="instalogo.png" alt="Tiktok Icon" style="width:35px;height:35px;"></a>
--->
-</div>		
+		<img src="instaicon.png" alt="Tiktok Icon" style="width:35px;height:35px;"></a>
+	
+<!-- </div> -->
+
+</div>
+</div>
 
 <!-- this would be for drop down menu/navigation -->
 
@@ -187,11 +178,13 @@ https://fonts.google.com/specimen/Architects+Daughter?preview.text=About%20the%2
 	
 	<br>
 	<div class="homepageDiv">
+	<h6> <!-- this is to center the images -->
 	<img src="legs.png" alt="Photo of Legs" style="width:18%;height:18%;"></a>
 	<img src="eyebrow.png" alt="Photo of Eyebrows" style="width:18%;height:18%;"></a>
 	<img src="arm.png" alt="Photo of Arm" style="width:18%;height:18%;"></a>
 	<img src="beard.png" alt="Photo of Beard" style="width:18%;height:18%;"></a>
 	<img src="legs.png" alt="Photo of Legs" style="width:18%;height:18%;"></a>
+	</h6>
 	</div>
 	</p>
     <br> <!-- is this break necessary? -->
@@ -230,6 +223,6 @@ Visit my Projects page to see what else I've been up to!</p> -->
 <footer>2025 © NEA Electrolysis LLC | Web Design by Arsinoe Designs LLC </footer></div>
 
 </div>
-<script src="slideshowindex.js"></script>--
+<!-- <script src="slideshowindex.js"></script> -->
 <script src="stickynav.js"></script></body>
 </html>

@@ -1,18 +1,19 @@
 /* Style the navbar */
 #navbar {
- /*  overflow: hidden;  */
- background-color: #000000;   /*this was that yellow shit*/
+  overflow: hidden;
+  background-color: #000000;
   text-align: center;
   list-style-type: none;
-  height: 40px;
-
+  height: 50px;
+  width: 100%
+  
 }
 
 
 
 /* Navbar links */
 #navbar a {
-  float: none;
+  float: right;
   display: inline-block;
   color: #000000;
   text-align: center; 
@@ -24,15 +25,19 @@
   font-weight: 400;
   font-style: normal;
   color: #fffefb;
-  font-size: 125%;
-  text-align: center; 
+  font-size: 135%;                                             /* changing the font size would technically fix the issue with the icons */
 }
 
 
 
 /* Page content */
 .content {
-  padding: 14px;
+  padding: 0px;                    /* not sure if i need this, it was 14px */
+  display: flex;
+ /* align-items: center;
+  vertical-align: middle;
+  margin-top: 0px; */
+  flex-direction: row;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
