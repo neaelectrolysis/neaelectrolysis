@@ -6,17 +6,24 @@
 }
 #right-column {
 	float: right;
-	width: 50%;
+	width: 49%;
+	margin-left: 1%;
 	
 }
 #left-column {
 	float: left;
-	width:50%;
+	width: 49%;
+	margin-right: 1%;
+}
+
+#center-column {
+	text-align: center;
+	width: 100%;
 }
 
 #column-services-left {
 	float: left;
-	width:20%;
+	width: 20%;
 }
 
 #column-services-right {
@@ -62,34 +69,42 @@ font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: normal;
+ font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 600;
   font-style: normal;
-  font-size: 400%;
+  color: #000000;
+  font-size: 250%;	
   text-align: center;
-  text-shadow: 0px 0px 1px #000000;
+  text-shadow: 0px 0px 0px #000000;
+  color: black;
 }
 
 h2 {	                                  /* use this for medium header that floats left */
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 600;
   font-style: normal;
-  font-size: 250%;
+  color: #000000;
+  font-size: 150%;	
   text-align: left;
-  text-shadow: 0px 0px 1px #000000;
+  text-shadow: 0px 0px 0px #000000;
+  color: black;
 }
 
 
-h3 {                                
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: normal;
+h3 {   
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 600;
   font-style: normal;
-  font-size: 200%;
+  color: #000000;
+  font-size: 150%;	
   text-align: center;
-  text-shadow: 0px 0px 1px #000000;
+  text-shadow: 0px 0px 0px #000000;
+  background-color: #dad3ff;
+  color: black;
+  padding: 8px 0px;
 }
 
 h4 {
@@ -102,13 +117,12 @@ font-family: "Montserrat", sans-serif;
 }
 
 h6 {	                                 /* just using this one for centering images */
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 400;
   font-style: normal;
-  font-size: 250%;
-  text-align: center;
-  text-shadow: 0px 0px 1px #000000;
+  color: #000000;
+  font-size: 100%;	
 }
 
 .center {
@@ -190,29 +204,6 @@ text-decoration: none; }
   background-color: white;
   display: none;
   overflow: hidden;
-}
-
-
-/* Styling for Days/Hours Table */
-
-table {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #000000;
-  font-size: 120%;
-  border-collapse: collapse;
-  width: 60%;
-}
-
-td, th {
-  border: 0px solid #ffffff;
-  text-align: left;
-  padding: 4px;
-}
-
-tr:nth-child(even) {
-  background-color: #ffffff;
 }
 
 .button {
