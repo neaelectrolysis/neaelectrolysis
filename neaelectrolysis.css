@@ -86,10 +86,13 @@ h2 {	                                  /* use this for medium header that floats
   font-weight: 600;
   font-style: normal;
   color: #000000;
-  font-size: 150%;	
-  text-align: left;
+  font-size: 175%;	
+  text-align: center;
   text-shadow: 0px 0px 0px #000000;
-  color: black;
+  background-color: #1f1f1f;
+  color: #fffefb;
+  padding: 8px 0px;
+  letter-spacing: 1px;
 }
 
 
@@ -102,7 +105,7 @@ h3 {
   font-size: 150%;	
   text-align: center;
   text-shadow: 0px 0px 0px #000000;
-  background-color: #dad3ff;
+  background-color: #f3d072;
   color: black;
   padding: 8px 0px;
 }
