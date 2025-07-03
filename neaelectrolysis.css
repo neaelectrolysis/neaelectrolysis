@@ -1,103 +1,122 @@
-/* Base Styles */
-body {
-  background-color: #fffefb;
-  margin: 0;
-  padding: 0;
-}
-
 #wrapper {
-  margin: 0 auto;
-  width: 70%;
-  max-width: 100%;
-  background-color: #fffefb;
-  padding: 10px;
+	margin: 0 auto;
+	width: 70%;
+	background-color: #fffefb;
+	
+}
+#right-column {
+	float: right;
+	width: 38%;
+	margin-left: 1%;
+	
+}
+#left-column {
+	float: left;
+	width: 60%;
+	margin-right: 1%;
 }
 
 #logo {
-  float: none;
-  width: 100%;
-  text-align: center; 
+	float: none;
+	width: 100%;
+	text-align: center; 
 }
 
-/* Typography */
-header {
-  font-family: 'Belanosima', serif;
-  font-size: 550%;
-  color: #000000;
-  margin: 5px 0;
+
+/*
+@media (max-width: 400px) {
+img { width: 5px; height: auto; }}
+
+@media (max-width: 800px) {
+img { width: 5px; height: auto; }}
+*/
+@media (max-width: 1100px) {
+img { width: 15px; height: auto; }}
+	
+@media (max-width: 2500px) {
+img { width: 15px; height: auto; }}
+
+
+body {
+background-color: #fffefb;
 }
 
-p {
-  font-family: "Montserrat", sans-serif;
+header { font-family: 'Belanosima', serif;
+font-size: 550%;
+color: #000000;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+
+p { 
+font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
   font-weight: 400;
   font-style: normal;
   color: #000000;
   font-size: 100%;
+ /* text-align: center; */
 }
 
-h1, h2, h3 {
+h2 {	                                  
   font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
   font-weight: 600;
   font-style: normal;
+  color: #000000;
+  font-size: 175%;	
   text-align: center;
   text-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-  font-size: 250%;	
-  color: black;
-}
-
-h2 {
-  font-size: 175%;	
   background-color: #1f1f1f;
   color: #fffefb;
   padding: 8px 0px;
   letter-spacing: 1px;
 }
 
-h3 {
-  font-size: 150%;
+
+h3 {   
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 600;
+  font-style: normal;
+  color: #000000;
+  font-size: 150%;	
+  text-align: center;
+  text-shadow: 0px 0px 0px #000000;
   background-color: #b1e8f1;
   color: black;
   padding: 8px 0px;
 }
 
 footer {
-  font-family: "Montserrat", sans-serif;
+font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #000000;
   font-size: 80%;
-}
+ }
 
-/* Links */
-a {
-  text-decoration: none;
-  color: #595281;
-}
-a:focus {
-  color: #8000000;
-}
-a:hover {
-  color: #9b8fdf;
-  cursor: pointer;
-}
-a:active {
-  color: #000000;
-}
-li a {
-  display: block;
-  list-style-type: none;
-  text-decoration: none;
-}
-
-/* Homepage div */
 .homepageDiv {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
 }
+
+a { text-decoration: none; color:#595281; }
+a:visited /* unspecified */
+a:focus { color: #8000000; }
+a:hover { color: #9b8fdf; cursor: pointer;}
+a:active { color: #000000; }
+a:link /* unspecified */
+
+li a {display: block;
+list-style-type: none;
+text-decoration: none; }
+
 
 /* Blinking Text */
 .blink_me {
@@ -115,7 +134,7 @@ li a {
   }
 }
 
-/* Accordion */
+/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
   color: #444;
@@ -127,9 +146,13 @@ li a {
   outline: none;
   transition: 0.4s;
 }
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: #ccc;
 }
+
+/* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
   background-color: white;
@@ -137,61 +160,19 @@ li a {
   overflow: hidden;
 }
 
-/* Buttons */
 .button {
   border: none;
   color: black;
-  padding: 10px 15px;
+  padding: 0px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 5px 0;
+  margin: 0px 0px; 
   cursor: pointer;
   background-color: green;
   border-radius: 12px;
   font-size: 95%;
 }
-.button:hover {
-  background-color: purple;
-  color: #000000;
-}
 
-/* ===== MOBILE STYLES ===== */
-@media only screen and (max-width: 768px) {
-  #wrapper {
-    width: 95%;
-    padding: 10px;
-  }
-
-  header {
-    font-size: 300%;
-  }
-
-  h1 {
-    font-size: 180%;
-  }
-
-  h2 {
-    font-size: 140%;
-    padding: 6px 0;
-  }
-
-  h3 {
-    font-size: 120%;
-    padding: 6px 0;
-  }
-
-  p {
-    font-size: 95%;
-  }
-
-  .accordion {
-    padding: 14px;
-  }
-
-  .button {
-    font-size: 90%;
-    padding: 10px;
-    width: 100%;
-  }
-}
+.button:hover
+{background-color: purple; color: #000000;}
