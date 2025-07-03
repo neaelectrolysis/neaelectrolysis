@@ -4,7 +4,7 @@
 <head>
 		<title>NEA Electrolysis- Jonesboro, Arkansas</title>
 		<meta charset= "utf-8">
-		<meta name="viewport" content="width=device-width" initial-scale="1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="neaelectrolysis.css">
 		<link rel="stylesheet" href="stickynavstyle.css">
 		<!-- <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Didact+Gothic&family=Uchen&display=swap" rel="stylesheet"> -->
@@ -31,9 +31,10 @@
 		
 </head>
 <body>
-<div id="wrapper">
+
 <br>
-<div class id="logo"><a href="index.html"><img src="substitutelogoheader.png" alt="NEA Electrolysis in Jonesboro, AR" style="width:100%;"></a>
+<div id="wrapper">
+<div class id="logo"><a href="index.html"><img src="substitutelogoheader.png" alt="NEA Electrolysis in Jonesboro, AR" style="width: 90%; max-width: 800px; text-align: left;"></a>
 </div>
 
 
@@ -53,6 +54,7 @@ I'm currently a student at the Electrology Institute of Wisconsin,
 with plans to open an electrolysis business for permanent hair removal in early 2026!
 </p>
 
+<br>
 <p style="display: inline-block;">
 <b>Follow my social media pages for future updates:</b>
 <br>
@@ -61,6 +63,7 @@ with plans to open an electrolysis business for permanent hair removal in early 
 <img src="instalogo.png" alt="Facebook Icon"><a href="https://www.instagram.com/autumndildine/" target="_blank"><b>&nbsp;autumndildine</b></a>
 </p>
 
+<br><br>
 <p>
 I prefer to be contacted on my facebook page if you have any questions! Please read the FAQ below for more info.
 </p>	
@@ -197,7 +200,7 @@ The results will be published here when it's ready to share!
 <!-- <footer>        </footer></div> -->
 
 </div>
-<script src="stickynav.js"></script></body>
+<script src="stickynav.js"></script>
 
 <!-- this is required for the accordian -->
 <script>
@@ -285,4 +288,37 @@ for (i = 0; i < acc.length; i++) {
   transition: max-height 0.2s ease-out;
 }
 </style>
+
+<style>
+@media (max-width: 2500px){                                
+img { width: 15px; height: auto;}
+h2 {font-size: 175%;}
+h3 {font-size: 150%;}
+#wrapper {max-width: 60%;}
+}
+
+@media (max-width: 1200px){                                  <!-- ipad pro -->
+img { width: 15px; height: auto;}
+h2 {font-size: 150%;}
+h3 {font-size: 125%;}
+#wrapper {max-width: 90%;}
+}
+
+@media (max-width: 850px){                                  <!-- ipad air, ipad mini -->
+img { width: 5px; height: auto;}
+h2 {font-size: 110%;}
+h3 {font-size: 110%;}
+#wrapper {max-width: 90%;}
+}
+
+
+@media (max-width: 700px){                                  <!-- iphone SE, iphone XR, iphone pro 14 max-->
+img { width: 5px; height: auto;}
+h2 {font-size: 90%;}
+h3 {font-size: 90%;}
+#wrapper {max-width: 95%;}
+}
+
+</style>
+</body>
 </html>
