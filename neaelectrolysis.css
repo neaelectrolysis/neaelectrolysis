@@ -4,11 +4,15 @@
 	width: 38%;
 	margin-left: 1%;
 	
+	
+	
 }
 #left-column {
 	float: left;
 	width: 60%;
 	margin-right: 1%;
+	
+	
 }
 
 #logo {
@@ -24,8 +28,11 @@
   padding: 2%;
   background-color: #fffefb;
   padding: 0px;
+  display: flex;
+  flex-direction: column;
 
 }
+
 
 body, html {
   overflow-x: hidden; /* temporarily hides horizontal scroll */
@@ -56,6 +63,21 @@ font-family: "Montserrat", sans-serif;
  /* text-align: center; */
 }
 
+
+h1 {	                                  
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 600;
+  font-style: normal;
+  color: #000000;
+  font-size: 150%;	
+  text-align: center;
+  text-shadow: 0px 0px 0px #000000;
+  color: #fffefb;
+  padding: 8px 0px;
+  letter-spacing: 1px;  
+  }
+  
 h2 {	                                  
   font-family: "Montserrat", sans-serif;
   /* font-optical-sizing: auto; */
