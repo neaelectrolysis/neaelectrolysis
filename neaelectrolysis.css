@@ -30,6 +30,22 @@
 	
 }
 
+.BioImage {
+	float: right;
+	max-width: 30%;
+	height: auto;
+	margin-left: 5%;
+	
+}
+
+.AboutMe {
+	float: left;
+	display: flex;
+	overflow: auto;
+	display: inline:
+	text-align: left;
+}
+
 #logo {
 	float: none;
 	}
