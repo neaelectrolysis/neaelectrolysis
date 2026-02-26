@@ -78,7 +78,7 @@ img {
   color: white;
   text-decoration: none;
   padding: 10px;
-  font-size: 1rem;
+  font-size: 124%;
   white-space: nowrap;
 }
 
@@ -448,6 +448,7 @@ footer {
   height: auto;
   border-radius: 8px;
 }
+
 
 
 
