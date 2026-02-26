@@ -31,6 +31,9 @@ social media icons are in a funny spot on the about page 435
 
 double check the image sizes used for mobile
 
+remember to change the name of mobile css files and also change the max width for images on index to reflect what is in css
+
+need to make sure seo works or add text
 -->
 
 
@@ -77,18 +80,10 @@ double check the image sizes used for mobile
   <!-- Responsive background image -->
   <picture class="bgimages">
   
-  <!-- SMALL phones first -->
-  <source srcset="images/general/bg-mobile-xs.png" media="(max-width: 435px)">
+  <source srcset="images/general/bg-phone.png" media="(max-width: 450px)">
   
-  <!-- SMALL phones first -->
-  <source srcset="images/general/bg-mobile-small.png" media="(max-width: 435px)">
+  <source srcset="images/general/bg-tablet.png" media="(max-width: 768px)">
   
-  <!-- TABLET -->
-  <source srcset="images/general/bg-tablet.png" media="(max-width: 1050px)">
-
-  <!-- Larger phones / small tablets -->
-  <source srcset="images/general/bg-mobile-large.png" media="(max-width: 1325px)">
-
   <!-- Desktop fallback -->
   <img src="images/general/bg-desktop.png" alt="Background Image">
 
