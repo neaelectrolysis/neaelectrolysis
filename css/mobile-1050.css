@@ -1,5 +1,7 @@
 
-@media (min-width: 436px) and (max-width: 1050px) {
+/* LARGER TABLETS AND SMALL LAPTOPS 769-1279 */
+
+@media (min-width: 769px) and (max-width: 1279px) {
 
   /* navbar adjustments */
    
@@ -81,7 +83,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 1050px;
+  max-width: 1279px;
   height: auto;
   opacity: 0.85;
   z-index: 2;
@@ -130,7 +132,7 @@
 }
 
 #wrapper {
-	max-width: 1050px;
+	max-width: 1279px;
 	width: 100%;
 	margin: 0 auto;
     padding: 16px;

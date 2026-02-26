@@ -1,8 +1,8 @@
 
 
-/* LARGE PHONES & TABLETS 481-768 */
+/* PHONES & SMALL TABLETS */
 
-@media (min-width: 381px) and (max-width: 435px) {
+@media (min-width: 320px) and (max-width: 768px) {
 
   /* navbar adjustments */
   .nav-icon {
@@ -83,7 +83,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 435px;
+  max-width: 768px;
   height: auto;
   opacity: 0.85;
   z-index: 2;
@@ -116,7 +116,7 @@
 	z-index: 1;
 }
 
-/* SOCIAL MEDIA */
+/* HOME PAGE SOCIAL MEDIA */
 .social-media-container {
   display: flex;
   position: absolute;
@@ -129,14 +129,29 @@
   margin-right: 12px;
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
-
   
 .social-media-container img {
   width: 40px;
 }
 
+/* OTHER PAGES SOCIAL MEDIA */
+.other-social-media-container {
+  display: flex;
+  justify-content: center;
+  color: #000000!important;
+  font-weight: 600;
+  font-size: 100%;
+  margin-right: 12px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+  
+.other-social-media-container img {
+  width: 40px;
+}
+
 #wrapper {
-	max-width: 430px;
+	max-width: 768px;
 	width: 100%;
 	margin: 0 auto;
     padding: 16px;
