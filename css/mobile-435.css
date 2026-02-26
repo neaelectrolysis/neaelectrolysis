@@ -2,7 +2,7 @@
 
 /* PHONES & SMALL TABLETS */
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 450px) {
 
   /* navbar adjustments */
   .nav-icon {
@@ -83,7 +83,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 768px;
+  max-width: 450px;
   height: auto;
   opacity: 0.85;
   z-index: 2;
@@ -128,6 +128,7 @@
   font-size: 100%;
   margin-right: 12px;
   transition: background-color 0.2s ease, transform 0.2s ease;
+  z-index: 10;
 }
   
 .social-media-container img {
@@ -151,7 +152,7 @@
 }
 
 #wrapper {
-	max-width: 768px;
+	max-width: 450px;
 	width: 100%;
 	margin: 0 auto;
     padding: 16px;
