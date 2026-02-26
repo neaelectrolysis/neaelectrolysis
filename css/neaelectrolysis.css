@@ -188,13 +188,6 @@ img {
   transform: scale(1.05);
 }
 
-/* FOOTER */
-footer {
-  text-align: center;
-  color: white;
-  margin-bottom: 30px;
-}
-
   .nav-logo {
     width: 140px;
   }
@@ -424,6 +417,10 @@ footer {
   text-align: center;
   color: white;
   margin-bottom: 30px;
+}
+
+.footer-mobile {
+	display: none;
 }
 
 .shy-seo {

@@ -13,27 +13,12 @@ move the position of the button & the "permanent hair removal" phrase
 
 figure out why there was a space between navbar and background image on desktop. had to fix it with margin-top but there wasn't a space issue on mobile so margin-top was just 0px
 
-my accordion is messed up on faqs
-
-also social media container is missing on desktop
-
-fix problem with font in navbar being noticeably different sizes on different pages
-
-signup button and social media icons are not showing in the same position on mobile as the did in the web developer
-
-did some edits on the files that are on github. download all that before i continue updating
-
-need to add mobile css files to about and faq
-
-the sign up button and icons don't work when you tap them on mobile
-
-social media icons are in a funny spot on the about page 435
-
-double check the image sizes used for mobile
-
-remember to change the name of mobile css files and also change the max width for images on index to reflect what is in css
-
 need to make sure seo works or add text
+
+i think i want to remove the icon on navbar on other pages and instead use neaelectrolysis logo
+
+for the next update (on home page) i want the background photo to remain static and the text/paragraphs have transparent white backgrounds with round corners
+
 -->
 
 
@@ -46,6 +31,7 @@ need to make sure seo works or add text
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/neaelectrolysis.css">
+  <link rel="stylesheet" href="css/mobile-1025.css">
   <link rel="stylesheet" href="css/mobile-768.css">
   <link rel="stylesheet" href="css/mobile-450.css">
 
@@ -67,11 +53,10 @@ need to make sure seo works or add text
   <a href="https://neaelectrolysis.formaloo.co/u8f4de" target="_blank" class="signup-nav-button">Sign Up For Updates!</a>
   
   <a href="index.html">HOME</a>
-  <!-- <a href="pages/faq.html">FAQ</a> -->
+  <a href="pages/main/faq.html">FAQ</a>
   <a href="pages/main/about.html">ABOUT</a>
 </div>
 
-<!-- HERO / IMAGE SECTION -->
 <!-- HERO / IMAGE SECTION -->
 <div class="image-container">
   
@@ -82,6 +67,8 @@ need to make sure seo works or add text
   
   <source srcset="images/general/bg-tablet.png" media="(max-width: 768px)">
   
+  <source srcset="images/general/bg-big-tablet.png" media="(max-width: 1025px)">
+
   <!-- Desktop fallback -->
   <img src="images/general/bg-desktop.png" alt="Background Image">
 
@@ -114,7 +101,50 @@ need to make sure seo works or add text
     <img src="images/general/icontiktok.png" alt="TikTok">
   </a>
 </div>
+
+<!--
+<h3>What is Electrolysis?</h3>
+<p>Electrolysis is the only method FDA approved for permanent hair removal. 
+Unlike laser hair removal, electrolysis works on every skin tone & hair type. 
+Laser definitely has its place in the industry, 
+while electrolysis helps meet the needs of clients when laser isn't suitable for their goals.
+<br><br>
+During electrolysis, a disposable, sterilized wire filament (probe) 
+is inserted into the hair follicle before a small amount of electric current 
+is delivered. After applying current, the electrologist gently removes the hair 
+with tweezers. The goal of electrolysis is to destroy the stem cells that play 
+an essential role in hair growth, located in the lower 2/3rds of the follicle. 
+The three main methods of electrolysis are Thermolysis, Galvanic, and The Blend Method. 
+If your electrologist offers all 3 of these methods, 
+they choose which best fits your needs when deciding your treatment plan.
+<br><br>
+Thermolysis uses a high frequency current, also known as AC (alternating current). 
+This is similar to the current radios, wifi, and microwaves use. 
+Thermolysis causes the water molecules within the tissues surrounding the hair 
+shaft to vibrate, which produces heat. When enough heat is produced, Thermolysis 
+damages the cells responsible for hair growth. Thermolysis typically involves 
+applying current less than 1 second per follicle. 
+<br><br>
+Galvanic uses "galvanic" current, also known as DC (direct current). 
+This type of current is used by batteries. 
+Galvanic produces a chemical reaction between the sodium & water in the tissues 
+surrounding the hair shaft. This creates sodium hydroxide, also known as lye, 
+which damages the cells responsible for hair growth. The duration of current 
+varies greatly for galvanic, depending on the hair type and other factors. 
+For instance, a coarse hair may require roughly 6 to 25 seconds to achieve the desired effect.
+<br><br>
+The Blend Method is a combination of both Thermolysis & Galvanic. 
+This method is slower than Thermolysis, but faster than Galvanic. 
+Combining these two currents helps each of them work better. 
+For instance, heat improves the effectiveness of lye, 
+which reduces the amount of lye required for the desired effect.
+</p>
+-->
+
+<p>TAGS: ELECTROLYSIS, ARKANSAS, JONESBORO, PARAGOULD, BATESVILLE, LITTLE ROCK, MISSOURI, POPLAR BLUFF, NORTH, EAST, NORTHEAST, 
+</p>
 </div>
+
 
 
 

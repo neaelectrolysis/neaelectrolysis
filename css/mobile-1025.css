@@ -1,8 +1,8 @@
 
 
-/* SMALL PHONES */
+/* LARGER PHONES PHONES & SMALL TABLETS */
 
-@media (min-width: 320px) and (max-width: 450px) {
+@media (min-width: 769px) and (max-width: 1025px) {
 
   /* navbar adjustments */
   .nav-icon {
@@ -83,7 +83,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 450px;
+  max-width: 1025px;
   height: auto;
   opacity: 0.85;
   z-index: 2;
@@ -93,7 +93,7 @@
 .signup-mobile-button {
   display: block;
   position: absolute;
-  top: 75%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #000000;
@@ -152,7 +152,7 @@
 }
 
 #wrapper {
-	max-width: 450px;
+	max-width: 1025px;
 	width: 100%;
 	margin: 0 auto;
     padding: 16px;
@@ -182,7 +182,6 @@ footer pre {
   display: flex;
   text-align: center;
 }
-
 
 }
 

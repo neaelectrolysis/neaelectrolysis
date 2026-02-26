@@ -169,6 +169,19 @@
   margin-top: 0px;
 }
 
+footer pre {
+	display: none;
+}
+
+.footer-mobile {
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  text-align: center;
+}
 
 }
 
