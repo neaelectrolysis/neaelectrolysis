@@ -93,7 +93,7 @@
 .signup-mobile-button {
   display: block;
   position: absolute;
-  top: 90%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #000000;
@@ -112,7 +112,7 @@
 .social-media-container {
   display: flex;
   position: absolute;
-  top: 95%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #000000!important;
