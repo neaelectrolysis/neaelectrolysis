@@ -68,18 +68,18 @@ and why is there so much space above/under the footer on other pages
 <div class="image-container">
   
   <!-- Responsive background image -->
-  <div class="bgimages">
+  <picture class="bgimages">
   
-  <img src="images/general/bg-phone.png" media="(max-width: 450px)">
+  <source srcset="images/general/bg-phone.png" media="(max-width: 450px)">
   
-  <img src="images/general/bg-tablet.png" media="(max-width: 768px)">
+  <source srcset="images/general/bg-tablet.png" media="(max-width: 768px)">
   
-  <img src="images/general/bg-big-tablet.png" media="(max-width: 1025px)">
+  <source srcset="images/general/bg-big-tablet.png" media="(max-width: 1025px)">
 
   <!-- Desktop fallback -->
   <img src="images/general/bg-desktop.png" alt="Background Image">
 
-</div>
+</picture>
 
   <!-- Overlay banner stays separate -->
   <!-- <img src="../../images/general/bglogo.png" alt="Background Banner Image" class="bglogo"> -->
