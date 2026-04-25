@@ -299,6 +299,16 @@ h2 {
   padding: 8px 0px;
 }
 
+.thank-you {
+  font-family: "Brush Script MT",
+  font-weight: 200;
+  font-style: normal;
+  color: #000000;
+  font-size: 300%;	
+  text-align: center;
+  padding: 8px 0px;
+}
+
 img {
   max-width: 100%;
   height: auto;
