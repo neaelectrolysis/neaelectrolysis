@@ -108,6 +108,11 @@
   z-index: 10;
 }
 
+.signup-lgbtq-button {
+  display: block;
+  margin: 20px auto;
+}
+
 /* HOME PAGE SOCIAL MEDIA */
 .social-media-container {
   display: flex;
