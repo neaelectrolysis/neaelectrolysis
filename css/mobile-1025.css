@@ -93,7 +93,7 @@
 .signup-mobile-button {
   display: block;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #000000;
@@ -108,19 +108,16 @@
   z-index: 10;
 }
 
-.bgimages img {
-	width: 100%;
-	height: auto;
-	object-fit: contain;
-	position: relative;
-	z-index: 1;
+.signup-lgbtq-button {
+  display: block;
+  margin: 20px auto;
 }
 
 /* HOME PAGE SOCIAL MEDIA */
 .social-media-container {
   display: flex;
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #000000!important;
