@@ -300,7 +300,7 @@ h2 {
 }
 
 .thank-you {
-  font-family: "Brush Script MT",
+  font-family: "Brush Script MT", sans-serif;
   font-weight: 200;
   font-style: normal;
   color: #000000;
