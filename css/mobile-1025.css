@@ -116,6 +116,21 @@
   margin: 20px 0;
 }
 
+/* hero content */
+.hero {
+  background-image: url("../images/general/bg-big-tablet.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* HOME PAGE SOCIAL MEDIA */
 .social-media-container {
   display: flex;
@@ -175,7 +190,7 @@ footer pre {
 
 .footer-mobile {
   text-align: center;
-  color: black;
+  color: white;
   margin-bottom: 30px;
   position: relative;
   z-index: 10;
