@@ -110,7 +110,10 @@
 
 .signup-lgbtq-button {
   display: block;
-  margin: 20px auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 20px 0;
 }
 
 /* HOME PAGE SOCIAL MEDIA */
