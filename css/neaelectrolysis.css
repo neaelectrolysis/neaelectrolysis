@@ -78,9 +78,9 @@ img {
 /* HERO IMAGE SECTION */
 .image-container {
   min-height: 100vh;
-display: flex;
-flex-direction: column;
-margin-top: -38px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -38px;
   width: 100%;
   min-height: 100vh;
   overflow: visible!important;
