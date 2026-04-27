@@ -306,7 +306,6 @@ img {
   padding: 10px 20px;
   position: relative; /* for centered logo */
   gap: 12px;
-  position: relative;
   z-index: 10;
 }
 
