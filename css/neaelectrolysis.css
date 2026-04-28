@@ -3,294 +3,45 @@
   box-sizing: border-box;
 }
 
-body, html {
+html, body {
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
   background-color: #000;
+  overflow-x: hidden;
+}
+
+/* FORCE FONT CONSISTENCY */
+#navbar,
+#navbar a,
+.signup-nav-button,
+.signup-mobile-button,
+button,
+p,
+h2,
+h3,
+a {
   font-family: "Montserrat", sans-serif;
 }
 
-p { 
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #000000;
-  font-size: 100%;
-  margin: 0;
-  padding: 0;
-}
-
+/* HEADINGS */
 h3 {   
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-style: normal;
-  color: #000000;
-  font-size: 150%;	
+  color: #000;
+  font-size: 150%;
   text-align: center;
-  text-shadow: 0px 0px 0px #000000;
-  padding: 8px 0px;
+  padding: 8px 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* NAVBAR */
-#navbar {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  background-color: #000;
-  padding: 5px 10px!important;
-  position: relative;
-  gap: 12px;
-}
-
-.nav-icon {
-  margin-right: auto;
-  width: 50px!important;
-  flex-shrink: 0;
-}
-
-.nav-logo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 140px;
-  max-width: 140px;
-}
-
-/* Navbar phrase */
-.navbar-phrase {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+h2 {
   font-weight: 600;
-  font-size: 125%;
-  color: white;
+  color: #000;
+  font-size: 150%;
   text-align: center;
-  white-space: nowrap;
-  z-index: 2;
+  padding: 8px 0;
 }
 
-/* HERO IMAGE SECTION */
-.image-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin-top: -38px;
-  width: 100%;
-  min-height: 100vh;
-  overflow: visible!important;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  margin-bottom: -38px;
-}
-
-/* background image */
-.bgimages {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100dvh;
-  z-index: 1;
-  object-fit: cover;
-}
-
-.bgimages img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* overlay banner */
-.bglogo {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  max-width: 1300px;
-  height: auto;
-  opacity: 0.85;
-  z-index: 2;
-  display: block;
-}
-
-/* hero content */
-.hero {
-  background-image: url("../images/general/bg-desktop.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  width: 100%;
-  min-height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.hero-logo {
-  max-width: 50%;
-  margin-top: -5%;
-}
-
-.phrase {
-  color: black;
-  font-size: 250%;
-  letter-spacing: 1px;
-  margin-top: 7%;
-  margin-right: 26%;
-}
-
-.signup-mobile-button {
-	display: none;
-}
-
-/* Sign Up button */
-.signup-nav-button {
-  background-color: #ffff99!important;
-  color: #000000!important;
-  padding: 8px 16px;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.9rem;
-  margin-right: 12px;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-}
-
-.signup-lgbtq-button {
-  display: block;
-  background-color: #000;
-  color: #fff !important;
-  padding: 12px 24px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1rem;
-  width: fit-content;
-  margin: 20px auto;
-  position: static;
-}
-
-.signup-lgbtq-button:hover {
-  background-color: #222222;
-}
-
-.signup-nav-button:hover {
-  background-color: #9b8fdf;
-  transform: scale(1.05);
-}
-
-  .nav-logo {
-    width: 140px;
-  }
-
-  #navbar a {
-    font-size: 0.9rem;
-    padding: 6px;
-  }
-
-
-/* HOME PAGE */
-body.home .nav-logo {
-  display: none;
-}
-
-.shy-seo {
-  font-size: 10%;
-  margin: 0;
-  padding: 0;
-  color: black;
-  margin-top: -200px;
-  display: block;
-}
-
-/* IMAGE GRID */
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  max-width: 1000px;
-  margin: 20px;
-}
-
-.image-grid img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 8px;
-}
-
-
-/* GLOBAL RESET */
-* {
-  box-sizing: border-box;
-}
-
-body, html {
-  margin: 0;
-  padding: 0;
-  background-color: #000;
-  font-family: "Montserrat", sans-serif;
-}
-
-#wrapper {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-}
-
-p { 
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #000000;
-  font-size: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-h3 {   
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  color: #000000;
-  font-size: 150%;	
-  text-align: center;
-  padding: 8px 0px;
-}
-
-h2 {   
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  color: #000000;
-  font-size: 150%;	
-  text-align: center;
-  padding: 8px 0px;
-}
-
-.thank-you {
-  font-family: "Brush Script MT", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  color: #000000;
-  font-size: 300%;	
-  text-align: center;
-  padding: 8px 0px;
-}
-
+/* IMAGES */
 img {
   max-width: 100%;
   height: auto;
@@ -304,7 +55,7 @@ img {
   justify-content: flex-end;
   background-color: #000;
   padding: 10px 20px;
-  position: relative; /* for centered logo */
+  position: relative;
   gap: 12px;
   z-index: 10;
 }
@@ -320,9 +71,9 @@ img {
   left: 50%;
   transform: translateX(-50%);
   width: 140px;
-  max-width: 140px;
 }
 
+/* NAV LINKS */
 #navbar a {
   color: white;
   text-decoration: none;
@@ -331,43 +82,25 @@ img {
   white-space: nowrap;
 }
 
+#navbar a.signup-nav-button {
+  color: #000;
+}
+
 #navbar a:hover {
   color: #9b8fdf;
 }
 
-
-/* Navbar phrase */
-.navbar-phrase {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+/* SIGNUP BUTTON (NAV) */
+.signup-nav-button {
+  background-color: #ffff99;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 12px;
+  text-decoration: none;
   font-weight: 600;
-  font-size: 125%;
-  color: white;
-  text-align: center;
-  white-space: nowrap;
-  z-index: 2;
-}
-
-.hero-logo {
-  max-width: 50%;
-  margin-top: -5%;
-}
-
-.coming-soon-phrase {
-	display: none;
-}
-
-.mobile-phrase {
-	display: none;
-}
-
-.phrase {
-  color: black;
-  font-size: 250%;
-  letter-spacing: 1px;
-  margin-top: 7%;
-  margin-right: 26%;
+  font-size: 0.9rem;
+  margin-right: 12px;
+  transition: 0.2s ease;
 }
 
 .signup-nav-button:hover {
@@ -375,49 +108,80 @@ img {
   transform: scale(1.05);
 }
 
-/* HOME PAGE SOCIAL MEDIA */
-.social-media-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 40px 0;
+/* MOBILE SIGNUP BUTTON (FIXED STRUCTURE) */
+.signup-mobile-button {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+
+  background: #000;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 12px;
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+
+  transition: 0.2s ease;
 }
 
-.social-media-container img {
-  width: 40px;
-}
 
-/* OTHER PAGES SOCIAL MEDIA */
-.other-social-media-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 40px 0;
-}
+.signup-lgbtq-button {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
 
-.other-social-media-container img {
-  width: 40px;
-}
-
-/* FOOTER */
-footer {
+  padding: 12px 20px;
+  background-color: #000;
+  color: #fff !important;
+  border-radius: 12px;
   text-align: center;
-  color: white;
-  margin-bottom: 30px;
-  z-index: 10;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease;
 }
 
-.footer-mobile {
-	display: none;
+.signup-lgbtq-button:hover {
+  background-color: #9b8fdf;
+  transform: scale(1.05);
 }
 
-.shy-seo {
-  font-size: 10%;
+.coming-soon-phrase {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #3D3D3D;
+  font-size: 300%;
   margin: 0;
   padding: 0;
-  color: black;
-  margin-top: -200px;
-  display: block;
+  line-height: 40px;
+}
+
+/* BODY BACKGROUND */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #000;
+  position: relative;
+  z-index: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../images/general/bg-desktop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  z-index: -1;
 }
 
 /* IMAGE GRID */
@@ -431,31 +195,75 @@ footer {
 
 .image-grid img {
   width: 100%;
-  height: auto;
   border-radius: 8px;
 }
 
+/* IMAGE GRID BIO */
+.image-grid-bio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 20px;
+}
+
+.image-grid-bio img {
+  width: 100%;
+  border-radius: 0px;
+}
+
+/* WRAPPER */
+#wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-container {
+  position: static;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center; /* optional but usually what you want */
+  gap: 15px; /* 👈 controls space between icons */
+}
+
+.social-media-container img {
+  width: 40px;
+  height: auto;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.footer-mobile {
+  display: none;
+}
+
+/* LINKS */
 a:link {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 a:visited {
-	color: blue;
-}
-
-a:hover {
-	color: purple;
-}
-
-a:active {
-	color: blue;
+  color: white;
 }
 
 p a:link {
-	color: black;
-	text decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
-
-
+.thank-you {	
+  font-family: 'Brush Script MT';
+  font-weight: 400;
+  color: #000;
+  font-size: 200%;
+  text-align: center;
+  padding: 8px 0;
