@@ -16,6 +16,7 @@ html, body {
 #navbar a,
 .signup-nav-button,
 .signup-mobile-button,
+.signup-lgbtq-button,
 button,
 p,
 h2,
@@ -86,10 +87,6 @@ img {
   color: #000;
 }
 
-#navbar a:hover {
-  color: #9b8fdf;
-}
-
 /* SIGNUP BUTTON (NAV) */
 .signup-nav-button {
   background-color: #ffff99;
@@ -101,11 +98,6 @@ img {
   font-size: 0.9rem;
   margin-right: 12px;
   transition: 0.2s ease;
-}
-
-.signup-nav-button:hover {
-  background-color: #9b8fdf;
-  transform: scale(1.05);
 }
 
 /* MOBILE SIGNUP BUTTON (FIXED STRUCTURE) */
@@ -126,6 +118,23 @@ img {
   transition: 0.2s ease;
 }
 
+.signup-mobile-button:hover {
+  background-color: #A1E3E3;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.signup-nav-button:hover {
+  background-color: #A1E3E3;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.signup-lgbtq-button:hover {
+  background-color: #A1E3E3;
+  color: #ffffff;
+  transform: scale(1.05);
+}
 
 .signup-lgbtq-button {
   display: block;
@@ -140,11 +149,6 @@ img {
   font-weight: 600;
   text-decoration: none;
   transition: 0.2s ease;
-}
-
-.signup-lgbtq-button:hover {
-  background-color: #9b8fdf;
-  transform: scale(1.05);
 }
 
 .coming-soon-phrase {
