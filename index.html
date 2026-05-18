@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 
+
+<!--
+
+fix navbar so the texts stay in a horizontal line on mobile 
+add NEA ELECTROLYSIS log on navbar on faq & about page (figure out how to get to display in center)
+edit css for links (underlining & highlighting)
+edit css for footer
+customize the sign up button
+move the position of the button & the "permanent hair removal" phrase
+
+
+figure out why there was a space between navbar and background image on desktop. had to fix it with margin-top but there wasn't a space issue on mobile so margin-top was just 0px
+
+need to make sure seo works or add text
+
+i think i want to remove the icon on navbar on other pages and instead use neaelectrolysis logo
+
+for the next update (on home page) i want the background photo to remain static and the text/paragraphs have transparent white backgrounds with round corners
+
+why isn't the footer showing on my index page on mobile
+
+and why is there so much space above/under the footer on other pages
+
+
+
+
+-->
+
+
+
 <html lang="en">
 <head>
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EX4HFL6N6Z"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L0NBKBZS3X"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-EX4HFL6N6Z');
+  gtag('config', 'G-L0NBKBZS3X');
 </script>
-  
+
   <title>NEA Electrolysis – Jonesboro, Arkansas</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,29 +63,81 @@
 
 <body>
 
+
 <!-- NAVBAR -->
 <div id="navbar">
-  <img class="nav-icon" src="images/general/icon.png" alt="NEA Electrolysis Icon">
+  <img class="logo-icon-desktop" src="images/general/icon.png" alt="NEA Electrolysis Icon">
+  <img class="logo-icon-mobile" src="images/general/icon.png" alt="NEA Electrolysis Icon">  
+
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="nav-icon">&#9776;</label>
+  <ul class="nav-links">
   
-  <a href="https://neaelectrolysis.formaloo.co/u8f4de" target="_blank" class="signup-nav-button">Sign Up For Updates!</a>
-  
-  <a href="index.html">HOME</a>
-  <a href="pages/main/faq.html">FAQ</a>
-  <a href="pages/main/about.html">ABOUT</a>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="html/nav/prices.html">PRICES</a></li>
+  <li><a href="html/nav/contact.html">CONTACT</a></li>
+  <li><a href="html/nav/faq.html">FAQ</a></li>
+  <li><a href="html/nav/about.html">ABOUT</a></li>
+  <li><a href="html/nav/resources.html">RESOURCES</a></li>
+  </ul>
 </div>
 
 <div id="wrapper">
+
+
+<br>
+<img src="images/general/main-logo.png" alt="NEA Electrolysis Logo"></a>
+
+<br>
+<div class="signup-mobile-button"><a href="https://neaelectrolysis.glossgenius.com/">Schedule&nbsp;Appointment</a></div>
+<br>
+<!-- change class above later for appropriate button type -->
+
+<h1>OPENING SOON</h1>
+<p>We're planning to open the first weekend of June! You may now visit the above link to schedule a consultation. 
 <br><br>
-<p class="coming-soon-phrase">COMING SOON TO<br>JONESBORO, AR 2026</p>
+Once scheduled, you will receive an email containing online forms & important information to review before your consultation on or before 05/28/26. 
+Please note that we currently don't offer services for the brazilian area, but hope to in the future. 
+<br><br>
+Consultations are free, include 15-30 minutes of electrolysis (complimentary) 
+and are required before scheduling a regular appointment. 
+</p>
+
+<h1>Welcome to NEA Electrolysis</h1>
+<p>Our office is located in Jonesboro AR at the <b>GrAttitude Hair & Nail Salon</b>. 
+
+<!-- While most of our clients are local to Jonesboro, 
+we serve clients traveling to us from as far as Batesville, Mountain View, Paragould, and Poplar Bluff, MO. -->
+
+
+Consultations are free and include 15-30 minutes of complimentary electrolysis.
+
+Browse our website to learn more about electrolysis, our services & prices, or reach out to (262) 227-2576 if you have any questions! 
 <br><br><br>
-<img src="images/general/main-logo.png" alt="NEA Electrolysis: Northeast Arkansas Electrolysis Studio">
+
+<h2>What to Know Before Your Consultation</h2>
+<img src="images/general/home1.png" alt="Gloved Hands Inserting Probe On Chin">
+<br>
+<p>Learn more about electrolysis, what to do before & after treatment, tour the studio, and more!</p>
+<!-- link to before-consultation.html -->
+
+<a href="html/nav/faq-before-consultation.html" class="home-button">Learn More</a>
+
 
 <br><br>
-<div class="signup-mobile-button"><a href="https://neaelectrolysis.formaloo.co/u8f4de">Sign&nbsp;Up&nbsp;For&nbsp;Updates!</a></div>
+<h2>Before & After</h2>
+<img src="images/general/home2.png" alt="Gloved Hands Inserting Probe On Chin">
+<br>
 
-<h1>What is Electrolysis?</h1>
+<p>Browse photos showing before & after treatment.</p>
 
-<img src="images/general/electrolysis.png" alt="Gloved Hands Inserting Probe On Chin">
+<a href="html/other/before-after.html" class="home-button">View Photos</a>
+
+<br><br>
+<h2>What is Electrolysis?</h2>
+
+<img src="images/general/home3.png" alt="Gloved Hands Inserting Probe On Chin">
+<br>
 
 <p>
 <b>Electrolysis is the only method FDA approved for permanent hair removal.</b> 
@@ -81,28 +163,6 @@ The duration for each follicle varies, but typically lasts for 3 up to 10 second
 <br><br>
 While Thermolysis is very popular in the US for its speed, The Blend Method or Galvanic are preferred in some cases. 
 If your electrologist is trained in each of these modalities, it's their responsibility to choose which is the best fit for your needs.
-
-<!--
-<br><br>
-Laser hair removal is classified as "permanent hair reduction", and uses light to target the stem cells, by passing through the skin and targeting melanin, 
-a pigment located in the hair shaft. While traditional laser devices relied on the contrast between light skin tones & dark hair to achieve its goal, 
-there have been some advancements (such as the nd:Yag device) to help better accomodate darker skin tones. 
-<br><br>
-However, laser hair removal cannot work on blond, red, grey, or white hair, due to these hairs lacking the necessary pigment.
-While there have been many cases of laser working for individuals with hirsutism (or endocrine conditions that stimulate unwanted hair growth),
-there are some instances little or no improvement has been reported. 
-There's not enough data to conclude if these cases were due to biological factors such as hormones, genetics, etc; or improper device/settings.
-<br><br>
-Likewise, there is also a concern for "paradoxical hypertrichosis" with laser hair removal. Little is known about how high this risk is between populations. 
-It's believed to be a greater risk on androgen-sensitive areas, or in individuals with elevated androgens and/or a greater sensitivity to androgens. 
-Similar to the lack of answers for individuals with hirsutism, this topic is also poorly understood due to a lack of data. 
-<br><br>
-While there are some instances Laser Hair Removal is the better option 
-(or sometimes recommended as the "first step" before Electrolysis in your hair removal journey),
-there are definitely cases in which Electrolysis is the best option to reach our goal. 
-Sometimes clients start with electrolysis as a personal preference, and some seek this service out after a poor experience with laser; 
-and for some, Electrolysis is just the best option from the start. 
--->
 
 </p>
 
